@@ -54,8 +54,9 @@ function addModalCloseHandler(){
 	//add a click handler to the img element in the image modal.  When the element is clicked, close the modal
 	//for more info, check here: https://www.w3schools.com/bootstrap/bootstrap_ref_js_modal.asp	
 	//for more info, check here: https://www.w3schools.com/bootstrap/bootstrap_ref_js_modal.asp
-	$(".modal-body").on("click", () => {
-		$("#galleryModal").modal("hide");  
+
+	$(".modal img").click(function () {
+		$(event.target).modal("hide");
 	});
 }
 
