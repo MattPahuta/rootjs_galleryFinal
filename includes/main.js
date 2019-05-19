@@ -1,5 +1,5 @@
 /* your javascript goes here */
-
+// LFZ PT Module 1 Final Image Gallery | Matt Pahuta
 
 $(document).ready(initiateApp);
 
